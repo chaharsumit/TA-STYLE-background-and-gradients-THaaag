@@ -161,9 +161,12 @@ body{
   background-color: #252b43;
   padding: 24px 24px 20px 24px;
   border-radius: 5px;
-  border-top: 5px solid #198ff5;
   align-items: center;
 }
+.grid-item-1{border-top: 5px solid #198ff5;}
+.grid-item-2{border-top: 5px solid #198ff5;}
+.grid-item-3{border-top: 5px solid #8d4f8a;}
+.grid-item-4{border-top: 5px solid #c43229;}
 .item-1{
   justify-content: space-between;
 }
