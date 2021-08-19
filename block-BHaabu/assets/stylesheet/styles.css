@@ -1,0 +1,115 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 16px;
+  line-height: 1.5;
+  background-image: url("../media/2.jpg");
+  background-repeat: repeat-y;
+  background-size: 100% 50%; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 80px;
+  font-weight: 900;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 1500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+}
+
+.box-container{
+  margin-bottom: 80px;
+  padding: 0;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box{
+  width: calc(33.33% - 30px);
+  height: 300px;
+  border-radius: 15px;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.box-1{
+  background-color: #f64347;
+}
+.box-2{
+  background-image: linear-gradient(to right,#2e2a23 30%, #f64347 70% );
+}
+.box-3{
+  background-image: radial-gradient(#f64347 10%,#551722 70%,#3b2824 80%);
+}
+
+.box-large{
+  width: 100%;
+  height: 500px;
+  background-image: linear-gradient(to bottom right, #e7525afa, #dbbc6886, #15b2f0a4),url("../media/1.jpg");
+  border-radius: 15px;
+  background-size: cover;
+}
