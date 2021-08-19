@@ -1,0 +1,186 @@
+<!--writeCode
+
+- Create a layout according to the design shown below.
+
+![Backgrounds and gradients level 2](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/background-and-gradients/ex-2.jpg)
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper.
+
+- Work on typography in detail.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="assets/stylesheet/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav flex-row">
+        <div class="nav-item-left">
+          <h1 class="heading">social media dashboard</h1>
+          <p class="text-bold text-light">total followers: 23,004</p>
+        </div>
+        <div class="nav-item-right flex-row">
+          <p class="nav-item text-bold text-light">dark mode</p>
+          <button class="btn nav-item"><div class="circle"></div></button>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="social-grid container flex-row">
+
+      <div class="social-grid-item flex-column">
+        <div class="item-1 flex-row">
+          <i class="fab fa-facebook-square grid-icon-lg"></i>
+          <p class="text-light text-bold">@nathanf</p>
+        </div>
+        <div class="item-2 flex-column">
+          <p class="text-lg text-bold">1987</p>
+          <p class="text-light text-md">followers</p>
+        </div>
+        <div class="item-3 flex-row">
+          <p class="success scale"><i class="fas fa-caret-up grid-icon-sm"></i> 12 Today</p>
+        </div>
+      </div>
+
+      <div class="social-grid-item flex-column">
+        <div class="item-1 flex-row">
+          <i class="fab fa-twitter grid-icon-lg"></i>
+          <p class="text-light text-bold">@nathanf</p>
+        </div>
+        <div class="item-2 flex-column">
+          <p class="text-lg text-bold">1044</p>
+          <p class="text-light text-md">followers</p>
+        </div>
+        <div class="item-3 flex-row">
+          <p class="success scale"><i class="fas fa-caret-up grid-icon-sm"></i> 99 Today</p>
+        </div>
+      </div>
+
+      <div class="social-grid-item flex-column">
+        <div class="item-1 flex-row">
+          <i class="fab fa-instagram grid-icon-lg"></i>
+          <p class="text-light text-bold">@realnathanf</p>
+        </div>
+        <div class="item-2 flex-column">
+          <p class="text-lg text-bold">11k</p>
+          <p class="text-light text-md">followers</p>
+        </div>
+        <div class="item-3 flex-row">
+          <p class="success scale"><i class="fas fa-caret-up grid-icon-sm"></i> 1099 Today</p>
+        </div>
+      </div>
+
+      <div class="social-grid-item flex-column">
+        <div class="item-1 flex-row">
+          <i class="fab fa-youtube-square grid-icon-lg"></i>
+          <p class="text-light text-bold">Nathan F.</p>
+        </div>
+        <div class="item-2 flex-column">
+          <p class="text-lg text-bold">8239</p>
+          <p class="text-light text-md">followers</p>
+        </div>
+        <div class="item-3 flex-row">
+          <p class="danger scale"><i class="fas fa-caret-down grid-icon-sm"></i> 144 Today</p>
+        </div>
+      </div>
+
+    </section>
+    <section class="social-stats">
+      <div class="container">
+        <h2 class="heading">Overview - Today</h2>
+        <div class="flex-row">
+          <div class="social-stats-item flex-column">
+            <div class="item-top flex-row">
+              <p class="text-light text-bold">Page Views</p>
+              <i class="fab fa-facebook-square grid-icon-lg"></i>
+            </div>
+            <div class="item-bottom flex-row">
+              <p class="number-count">87</p>
+              <p class="success scale"><i class="fas fa-caret-up"></i> 3%</p>
+            </div>
+          </div>
+          <div class="social-stats-item flex-column">
+            <div class="item-top flex-row">
+              <p class="text-light text-bold">Likes</p>
+              <i class="fab fa-facebook-square grid-icon-lg"></i>
+            </div>
+            <div class="item-bottom flex-row">
+              <p class="number-count">52</p>
+              <p class="danger scale"><i class="fas fa-caret-down"></i> 2%</p>
+            </div>
+          </div>
+          <div class="social-stats-item flex-column">
+            <div class="item-top flex-row">
+              <p class="text-light text-bold">Likes</p>
+              <i class="fab fa-instagram grid-icon-lg"></i>
+            </div>
+            <div class="item-bottom flex-row">
+              <p class="number-count">5462</p>
+              <p class="success scale"><i class="fas fa-caret-up"></i> 2257%</p>
+            </div>
+          </div>
+          <div class="social-stats-item flex-column">
+            <div class="item-top flex-row">
+              <p class="text-light text-bold">Profile Views</p>
+              <i class="fab fa-instagram grid-icon-lg"></i>
+            </div>
+            <div class="item-bottom flex-row">
+              <p class="number-count">52k</p>
+              <p class="success scale"><i class="fas fa-caret-up"></i> 1375%</p>
+            </div>
+          </div>
+          <div class="social-stats-item flex-column">
+            <div class="item-top flex-row">
+              <p class="text-light text-bold">Retweets</p>
+              <i class="fab fa-twitter grid-icon-lg"></i>
+            </div>
+            <div class="item-bottom flex-row">
+              <p class="number-count">117</p>
+              <p class="success scale"><i class="fas fa-caret-up"></i> 303%</p>
+            </div>
+          </div>
+          <div class="social-stats-item flex-column">
+            <div class="item-top flex-row">
+              <p class="text-light text-bold">Likes</p>
+              <i class="fab fa-twitter grid-icon-lg"></i>
+            </div>
+            <div class="item-bottom flex-row">
+              <p class="number-count">507</p>
+              <p class="success scale"><i class="fas fa-caret-up"></i> 553%</p>
+            </div>
+          </div>
+          <div class="social-stats-item flex-column">
+            <div class="item-top flex-row">
+              <p class="text-light text-bold">Likes</p>
+              <i class="fab fa-youtube-square grid-icon-lg"></i>
+            </div>
+            <div class="item-bottom flex-row">
+              <p class="number-count">107</p>
+              <p class="danger scale"><i class="fas fa-caret-down"></i> 19%</p>
+            </div>
+          </div>
+          <div class="social-stats-item flex-column">
+            <div class="item-top flex-row">
+              <p class="text-light text-bold">Total Views</p>
+              <i class="fab fa-youtube-square grid-icon-lg"></i>
+            </div>
+            <div class="item-bottom flex-row">
+              <p class="number-count">1407</p>
+              <p class="danger scale"><i class="fas fa-caret-up"></i> 12%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
