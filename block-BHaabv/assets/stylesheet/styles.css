@@ -163,6 +163,18 @@ body{
   border-radius: 5px;
   align-items: center;
 }
+
+.border-linear{
+  width: 320px;
+  height: 5px;
+  position: absolute;
+  background: linear-gradient(to right, rgb(255, 201, 102), purple);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  top: 162px;
+  right: 620px;
+}
+
 .grid-item-1{border-top: 5px solid #198ff5;}
 .grid-item-2{border-top: 5px solid #198ff5;}
 .grid-item-3{border-top: 5px solid #8d4f8a;}
